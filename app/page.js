@@ -4,6 +4,11 @@ import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import ProjectSection from "./components/ProjectSection";
 import EmailSection from "./components/EmailSection";
+import { Metadata } from "next";
+
+export const metadata = {
+  title: "Pius' Portfolio",
+};
 
 export default function Home() {
   return (
