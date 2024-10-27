@@ -12,7 +12,7 @@ const EmailSection = () => {
   return (
     <section className="grid md:grid-cols-2 my-12 py-24 gap-4 bg-blue-800 rounded-lg shadow-lg p-6">
       <div className="text-white">
-        <h5 className="text-2xl font-bold mb-2">Let's Connect</h5>
+        <h5 className="text-2xl font-bold mb-2">Lets Connect</h5>
         <p className="text-white-400 mb-4 max-w-md">
           I would be more than happy to work with you, whether its a
           collaboration or a project... Whatever the case is let me help you
