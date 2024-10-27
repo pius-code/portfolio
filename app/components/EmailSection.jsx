@@ -50,7 +50,10 @@ const EmailSection = () => {
         </div>
       </div>
       <div>
-        <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
+        <form
+          onSubmit={handleSubmit}
+          className="flex flex-col space-y-4 justify-center "
+        >
           <label htmlFor="email" className="text-white font-semibold">
             Email Address
           </label>
