@@ -24,12 +24,12 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Static HTML Sound Recorder",
+    title: "A web-based Recorder",
     description:
-      "A simple static HTML application that allows users to record sound and save it locally.",
+      "A web based Recorder with upcoming fetaures like AI transcording, summary generation, deadline notifications. also Includes a mobile app version",
     imageUrl: "/images/rec.png",
-    gitUrl: "https://github.com/pius-code/Recorder",
-    webUrl: "https://corder.vercel.app/",
+    gitUrl: "https://github.com/pius-code/transcorder",
+    webUrl: "https://transcorder.vercel.app/",
   },
 ];
 
