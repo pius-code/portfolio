@@ -10,7 +10,7 @@ const EmailSection = () => {
   const [state, handleSubmit] = useForm("xdkokvbb");
 
   return (
-    <section className="grid md:grid-cols-2 my-12 py-24 gap-4 bg-blue-800 rounded-lg shadow-lg p-6">
+    <section className="grid md:grid-cols-2 my-12 py-24 gap-4 bg-amber-800 rounded-lg shadow-lg p-6">
       <div className="text-white">
         <h5 className="text-2xl font-bold mb-2">Lets Connect</h5>
         <p className="text-white-400 mb-4 max-w-md">
@@ -34,7 +34,7 @@ const EmailSection = () => {
             />
           </Link>
           <Link
-            href="linkedin.com/in/pius-oblie-5b5183261"
+            href="https://linkedin.com/in/pius-oblie-5b5183261"
             passHref
             rel="noopener noreferrer"
             target="_blank"
@@ -83,7 +83,7 @@ const EmailSection = () => {
           <button
             type="submit"
             disabled={state.submitting}
-            className="bg-blue-600 text-white font-bold py-2 rounded hover:bg-blue-700 transition duration-200"
+            className="bg-amber-600 text-white font-bold py-2 rounded hover:bg-amber-700 transition duration-200"
           >
             Submit
           </button>

@@ -31,6 +31,24 @@ const projectsData = [
     gitUrl: "https://github.com/pius-code/transcorder",
     webUrl: "https://transcorder.vercel.app/",
   },
+  {
+    id: 4,
+    title: "A fun way to ask your crush out on valentines day",
+    description:
+      "A simple but way web app that allows you to ask you r crush out on valentines day and she cant say no!",
+    imageUrl: "/images/valentine.png",
+    gitUrl: "https://valentine-iota-blue.vercel.app/",
+    webUrl: "https://valentine-iota-blue.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "A blockchain based financial system",
+    description:
+      "A web3 financial system that allows you to trade with a token called Levr. Since its a private project I cant share much about it.",
+    imageUrl: "/images/levr.png",
+    gitUrl: "fathersjoy.vercel.app",
+    webUrl: "fathersjoy.vercel.app",
+  },
 ];
 
 const cardVariants = {

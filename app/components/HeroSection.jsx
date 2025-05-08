@@ -40,9 +40,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#000000] text-2xl lg:text-2xl mb-7 ">
-            I’m Pius, a passionate computer engineer with a deep love for
-            technology and innovation. My drive for excellence fuels my hard
-            work and determination in solving complex problems and developing
+            I’m Pius, a tech savvy chill dude with a deep love for technology
+            and innovation. My drive for excellence fuels my hard work and
+            determination in solving complex problems and developing
             cutting-edge solutions. Alongside my engineering expertise, I’m
             dedicated to music, constantly refining my skills with the same
             focus and commitment I bring to my work. As a teacher, I take pride
@@ -50,24 +50,24 @@ const HeroSection = () => {
             others grow with a clear and supportive approach.
           </p>
           <div className="flex flex-col mb-5 lg:flex lg:flex-row">
-            <button className="px-5 py-3 rounded-full mr-4 bg-primary-600 text-[20px] hover:bg-blue-400 text-black mb-3 text-2xl font-bold">
-              Hire me
+            <button className="px-5 py-3 rounded-full mr-4 bg-primary-600 text-[20px] hover:bg-amber-700 text-black mb-3 text-2xl font-bold animate-pulse">
+              <a href="#contacts">Hire me</a>
             </button>
             <button
               className="px-5 py-3 rounded-full mr-4 bg-transparent
               text-[20px]
-              border-2 border-black  hover:bg-[#498ac8aa] hover:text-black text-black mb-3 text-2x l"
+              border-2 border-black  hover:bg-[#ffc247aa] hover:text-black text-black mb-3 text-2x l"
             >
-              Contact
+              <a href="#contacts">Conect with me</a>
             </button>
           </div>
         </motion.div>{" "}
         <div className="col-span-5 flex justify-center lg:ml-[150px] lg:mt-6">
-          <div className="rounded-full bg-[#16263788] w-[300px] h-[300px] flex justify-center items-center m-6 lg:mt-0">
+          <div className="rounded-full bg-[#f1f0b488] w-[300px] h-[300px] flex justify-center items-center m-14 lg:mt-2">
             <img
-              src="/images/many.png"
+              src="/images/Piusx.png"
               alt="hero image"
-              className="object-cover pb-[10rem] mt-[1rem] w-96 h-[540px]"
+              className="object-cover pb-[10rem] mt-[2rem] w-72 h-[500px] "
             />
           </div>
         </div>

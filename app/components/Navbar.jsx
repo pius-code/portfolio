@@ -23,12 +23,12 @@ const navlinks = [
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#010101e4] h-20 bg-opacity-90 backdrop-blur-md shadow-lg">
+    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#ffffff00] h-20 bg-opacity-90 backdrop-blur-md shadow-lg">
       <div className="flex flex-wrap items-center justify-between mx-auto  ">
-        <Link href={"/"} className="text-5xl text-[#85b7b8] font-semibold m-4">
+        <Link href={"/"} className="text-5xl text-amber-500 font-semibold m-4">
           PIUS
         </Link>
-        <div className="mobile-menu flex justify-center items-center bg-white md:hidden w-10 h-10 mr-7 ">
+        <div className="mobile-menu flex justify-center items-center text-amber-500 md:hidden w-10 h-10 mr-7 ">
           {!navbar ? (
             <button
               className="flex items-center justify-center"
