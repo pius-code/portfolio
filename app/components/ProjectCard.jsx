@@ -29,7 +29,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, webUrl }) => {
         </div>
       </div>
 
-      <div className="text-amber-800 rounded-xl  bg-gradient-to-br h-44 md:h-56 from-[#f9f9d6e7] to-[#fae3b4] bg-opacity-100 backdrop-blur-md shadow-lg pb-5 border border-[#ff840084] p-3 hover:scale-110 transition-all duration-500 mt-5">
+      <div className="text-amber-800 rounded-xl  bg-gradient-to-br h-auto md:h-56 from-[#f9f9d6e7] to-[#fae3b4] bg-opacity-100 backdrop-blur-md shadow-lg pb-5 border border-[#ff840084] p-3 hover:scale-110 transition-all duration-500 mt-5">
         <h5 className="text-2xl font-semibold mb-3"> {title} </h5>
         <p className="text-[#000000] font-mono mb-3 pb-3">{description}</p>
       </div>
