@@ -8,7 +8,7 @@ const projectsData = [
     id: 1,
     title: "JuasoPro",
     description:
-      "An eCommerce website that allows you to buy local market items and have them delivered to your home location.",
+      "An eCommerce website that allows you to buy local market items and have them delivered to your home location. NB: The database is no longer active because no-one wanted to buy from me.",
     imageUrl: "/images/Jpro.png",
     gitUrl: "https://github.com/pius-code/Jpro-Ecomm",
     webUrl: "https://juaso.vercel.app/",
@@ -35,7 +35,7 @@ const projectsData = [
     id: 4,
     title: "A fun way to ask your crush out on valentines day",
     description:
-      "A simple but way web app that allows you to ask you r crush out on valentines day and she cant say no!",
+      "A simple but cool web app that allows you to ask your crush out on valentines day and she cant say no!... she can😒",
     imageUrl: "/images/valentine.png",
     gitUrl: "https://valentine-iota-blue.vercel.app/",
     webUrl: "https://valentine-iota-blue.vercel.app/",
