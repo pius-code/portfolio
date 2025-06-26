@@ -46,8 +46,8 @@ const projectsData = [
     description:
       "A web3 financial system that allows you to trade with a token called Levr. Since its a private project I cant share much about it.",
     imageUrl: "/images/levr.png",
-    gitUrl: "fathersjoy.vercel.app",
-    webUrl: "fathersjoy.vercel.app",
+    gitUrl: "https://fathersjoy.vercel.app",
+    webUrl: "https://fathersjoy.vercel.app",
   },
 ];
 

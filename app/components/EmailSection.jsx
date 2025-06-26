@@ -72,7 +72,7 @@ const EmailSection = () => {
           <textarea
             id="message"
             name="message"
-            className="p-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="p-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
             required
           />
           <ValidationError
@@ -89,7 +89,7 @@ const EmailSection = () => {
           </button>
         </form>
         {state.succeeded && (
-          <p className="text-green-500 font-bold mt-4">
+          <p className="text-amber-950 font-bold mt-4">
             Thanks for reaching out to me! I will be sure to contact you as soon
             as I can.
           </p>
