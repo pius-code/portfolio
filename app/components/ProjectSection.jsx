@@ -29,7 +29,7 @@ const projectsData = [
       "A web based Recorder with upcoming fetaures like AI transcording, summary generation, deadline notifications. also Includes a mobile app version",
     imageUrl: "/images/rec.png",
     gitUrl: "https://github.com/pius-code/transcorder",
-    webUrl: "https://transcorder.vercel.app/",
+    webUrl: "https://voxai-1wyv.onrender.com",
   },
   {
     id: 4,
